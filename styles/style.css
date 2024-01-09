@@ -183,6 +183,85 @@
 }
 
 
+/*Coming Soon*/
+
+
+.best-offer-coming-soon-container{
+    
+    width: 1320px;
+    margin: 120px 230px;
+    height: 402px;
+    border-radius: 10px;
+
+}
+
+.best-offer-coming-soon-container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+.best-offer-title-section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 25%;
+}
+
+.best-offer-title-section .best-offer-title-sub-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 16px;
+    line-height: normal;
+}
+
+.best-offer-title-section .best-offer-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+
+.coming-soon-portofolio{
+    border: 10px solid red;
+    padding: 10px;
+    border-radius: 50%;
+    width: 28%;
+}
+
+
+.text-title-section-2024{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.text-title-section-2024 h3{
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 8px;
+}
+
+.new-year-img-celebration{
+    margin-top: 20px;
+}
+
+
+
 
 
 
