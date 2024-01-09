@@ -328,6 +328,7 @@
   width: 1320px;
   margin: 120px 230px;
   height: 1000px;
+  
 }
 .awesome-portfolio-container {
   display: flex;
@@ -358,4 +359,11 @@
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 48px;
+}
+.news-letter-container {
+  width: 1320px;
+  margin: 120px 230px;
+  height: 402px;
+  border-radius: 10px;
+  background-color: #ffebeb;
 }
