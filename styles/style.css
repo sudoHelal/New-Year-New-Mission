@@ -5,14 +5,20 @@
   padding: 0;
   font-family: "Merriweather", serif;
 }
+.section-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
 
-.container{
-    margin: 50px auto;
-    width: 90%;
-    max-width: 1320px;
-    height: 600px;
-    background-image: url("/resources/Banner\ Image.png");
-
+.container {
+  margin: 50px auto;
+  width: 90%;
+  max-width: 1320px;
+  height: 600px;
+  background-image: url("/resources/Banner\ Image.png");
 }
 
 /* banner section start */
@@ -73,11 +79,111 @@
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 48px;
-
 }
 
-.new-year-off-img{
-    max-width: 882.9px;
-    width: 100%;
-    height: 500px;
+.new-year-off-img {
+  max-width: 882.9px;
+  width: 100%;
+  height: 500px;
 }
+/* midnight party section */
+.midnight-party-container {
+  width: 90%;
+  max-width: 1320px;
+  height: 600px;
+  margin: 120px auto;
+  padding-left: 120px;
+  background-image: url("../resources/Vectorrr.png");
+  background-repeat: no-repeat;
+}
+
+.midnight-party-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.midnight-party-text {
+  display: block;
+  font-size: 64px;
+  width: 50%;
+}
+
+.midnight-party-24-img {
+  width: 40%;
+}
+.midnight-party-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+}
+.btn-join {
+  cursor: pointer;
+  background-color: transparent;
+  padding: 20px 28px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 0;
+}
+.location h3 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.location-btn-join {
+  cursor: pointer;
+  background-color: red;
+  padding: 16px 32px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 38px;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 5px;
+}
+
+.location-container{
+
+    width: 1320px;
+    margin: 120px 230px;
+    height: 402px;
+    border-radius: 10px;
+    background-color: #FFEBEB;
+}
+.location-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-text h3{
+   margin: 10px;
+}
+
+
+
+
+
+
